@@ -1,5 +1,10 @@
 print("------------CALCULADORA------------")
 n1=int(input("Digite o primeiro valor....:"))
 n2=int(input("Digite o segundo valor.....:"))
-soma=n1+n2
-print("Soma dos valores",soma)
+
+#Desvio condicional
+#Se a variável n2 tiver conteúdo diferente de zero...
+if n2!=0:
+    print("A divisão entre os valores é:",n1/n2)
+else:
+    print("Impossível!")
